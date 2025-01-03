@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contactstyles/contactguide.css" />
+        <link rel="stylesheet" href="contactstyles/contact.css" />
+    </head>
+    <body>
+        <div class="div">
+            <img class="back" src="assets/images/socialback.png" />
+            <img class="con" src="assets/fonts/Contact me Leave your email address here! _______________________.png" />
+            <input type="text" id="user-input" name="user-input">
+            <div class="button-container">
+                <button class="image-button">
+                    <img src="assets/fonts/button-image.png" alt="Button Image">
+                </button>
+            </div>            
+            </div>
+        </div>
+        <script>
+            document.querySelector('.image-button').addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default link behavior
+                const userInput = document.getElementById('user-input').value;
+        
+                fetch('http://localhost:3000/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ input: userInput }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data.message);
+                    window.location.href = 'thanks.html'; // Redirect after submission
+                })
+                .catch(error => console.error('Error:', error));
+            });
+        </script>        
+    </body>
+</html>

@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+}
+
+.ai {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background-image: url("../assets/images/play.png"); 
+  background-size: 100% 100%;
+  border: 1px solid #000000;
+  position: relative;
+  height: 100%; 
+}
+
+.ai .play-wrapper {
+  background-color: #000000;
+  border: 1px solid;
+  border-color: #2600ff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.ai .play {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

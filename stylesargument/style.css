@@ -1,0 +1,15 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.argument {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100% 100%;
+  position: relative;
+  height: 5622px;
+  background-image: url(../assets/fonts/write.png);
+  background-size: 100% 100%;
+}

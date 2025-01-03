@@ -1,0 +1,214 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100% 100%;
+}
+
+.menu .overlap-group-wrapper {
+  width: 1920px;
+  height: 5622px;
+}
+
+.menu .overlap-group {
+  position: relative;
+  height: 5622px;
+  background-image: url(../assets/images/main.png);
+  background-size: 100% 100%;
+}
+
+.menu .thanks-to-god-for {
+  position: absolute;
+  width: 1125.6px;
+  height: 151.2px;
+  top: 226.8px;
+  left: 370px;
+}
+
+.menu .overlap {
+  position: absolute;
+  width: 1904px;
+  height: 758.8px;
+  top: 4849.6px;
+  left: 0;
+}
+
+.menu .div {
+  position: absolute;
+  width: 1904px;
+  height: 758.8px;
+  top: 0;
+  left: 0;
+}
+
+.menu .overlap-2 {
+  position: absolute;
+  width: 1904px;
+  height: 658px;
+  top: 0;
+  left: 0;
+}
+
+.menu .when-all-life-has {
+  position: absolute;
+  width: 364px;
+  height: 576.8px;
+  top: 81.2px;
+  left: 0;
+}
+
+.menu .maybe-this-is-why-my {
+  position: absolute;
+  width: 350px;
+  height: 324.8px;
+  top: 81.2px;
+  left: 1480px;
+}
+
+.menu .connect {
+  position: absolute;
+  width: 1800px;
+  height: 109.2px;
+  top: 0;
+  left: 15px;
+}
+
+.menu .skeleton {
+  position: absolute;
+  width: 800.8px;
+  height: 411.6px;
+  top: 347.2px;
+  left: 550px;
+  mix-blend-mode: luminosity;
+  object-fit: cover;
+  animation: flutuar 3s linear infinite;
+}
+@keyframes flutuar {
+
+  0%,
+  100% {
+      transform: translateY(0px);
+  }
+
+  50% {
+      transform: translateY(-23px);
+  }
+}
+
+.conteudo img:nth-child(2) {
+  animation-delay: .2s;
+}
+
+.menu .i-KNOW {
+  position: absolute;
+  width: 187.6px;
+  height: 70px;
+  top: 650px;
+  left: 10;
+}
+
+.menu .i-DREAM {
+  position: absolute;
+  width: 198.8px;
+  height: 70px;
+  top: 658px;
+  left: 1630px;
+}
+
+.menu .dvd {
+  position: absolute;
+  width: 1433.6px;
+  height: 3127.6px;
+  top: 1159.2px;
+  left: 360px;
+}
+
+.menu .one {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 1150px;
+  left: 360px;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+.menu .two {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 1700px;
+  left: 1220px;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+.menu .three {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 2550px;
+  left: 370px;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+.menu .four {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 3200px;
+  left: 1220px;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+.menu .five {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 4090px;
+  left: 350px;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+.menu .social {
+  position: absolute;
+  width: 350px;
+  height: 750px;
+  top: 4850px;
+  left: 15px;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+.menu .contact {
+  position: absolute;
+  width: 350px;
+  height: 750px;
+  top: 4850px;
+  left: 1480px;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+}

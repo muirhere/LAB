@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+}
+
+.channels-and {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact .back {
+  border: 1px solid;
+  border-color: transparent;
+  background-image: url("../assets/images/socialback.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.div .back {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background-image: url("../assets/images/socialback.png"); 
+  background-size: 100% 100%;
+  position: relative;
+  height: 960px; 
+}
+
+.div .con {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; 
+  max-width: 1000px; 
+  height: auto;
+}
+
+.div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+input[type="text"] {
+  position: absolute;
+  margin-top: 440px;
+  width: 850px;
+  left: 440px;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  color: #ddddddcd; 
+  outline: none;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 3px 3px 3px black;
+  font-style: normal;
+  mix-blend-mode: luminosity;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.image-button img {
+  position: absolute;
+  top: 700px;
+  left: 1330px;
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.image-button img:hover {
+  transform: matrix(1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"]::placeholder {
+  color: transparent;
+  font-style: italic;
+}

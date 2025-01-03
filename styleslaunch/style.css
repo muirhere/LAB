@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+}
+
+.launch {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background-image: url("../assets/images/Background.png"); 
+  background-size: 100% 100%;
+  border: 1px solid #000000;
+  position: relative;
+  height: 100%; 
+}
+
+.launch .overlap-group-wrapper {
+  overflow: hidden;
+  width: 685px;
+  height: 492px;
+}
+
+.launch .overlap-group {
+  position: relative;
+  width: 900px;
+  height: 850px;
+  top: -25px;
+  left: -25px;
+  filter: blur(1000px);
+  border-radius: 500px;
+}
+
+.launch .final-icon {
+width: 900px;
+height: 850px;
+left: 500px;
+top: 75px;
+object-fit: contain;
+position: fixed;
+opacity: 0.8;
+filter: blur(2px);
+}
