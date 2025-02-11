@@ -77,17 +77,20 @@ input[type="text"] {
   text-align: center;
 }
 
-.image-button img {
+.button-container .image-button{
   position: absolute;
-  top: 700px;
-  left: 1330px;
+  top: 715px;
+  left: 1345px;
   width: 100px;
   height: auto;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.image-button img:hover {
+.button-container .image-button img:hover {
   transform: matrix(1);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
