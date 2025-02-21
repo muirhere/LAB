@@ -38,7 +38,7 @@
                     message: userInput
                 }).then(response => {
                     console.log("Email sent successfully:", response);
-                    window.location.href = 'thanks.html'; // Redirect after submission
+                    window.location.href = 'http://127.0.0.1:5500/thanks.html'; // Redirect after submission
                 }).catch(error => {
                     console.error("Error sending email:", error);
                     alert("Failed to send message. Please try again.");
